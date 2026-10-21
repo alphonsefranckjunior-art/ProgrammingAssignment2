@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## Cette fonction calcule l'inverse de la matrice spéciale créée par makeCacheMatrix.
+## Si l'inverse a déjà été calculé (et que la matrice n'a pas changé), 
+## elle récupère directement le résultat depuis la mémoire cache sans refaire le calcul.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
